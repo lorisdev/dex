@@ -1,4 +1,5 @@
-import dex_tarn from "https://dev.jspm.io/tarn@3";
+// import dex_tarn from "https://dev.jspm.io/tarn@3";
+import dex_tarn from "https://raw.githubusercontent.com/Vincit/tarn.js/master/src/tarn.ts";
 export const tarn = dex_tarn;
 
 import dex_inherits from "https://dev.jspm.io/inherits@2.0";

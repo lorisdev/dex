@@ -4,10 +4,10 @@ export const tarn = dex_tarn;
 import dex_inherits from "https://dev.jspm.io/inherits@2.0";
 export const inherits = dex_inherits;
 
-import dex_events from "https://raw.githubusercontent.com/jspm/jspm-core/master/nodelibs/events.js";
+import dex_events from "https://raw.githubusercontent.com/jspm/jspm-core/main/nodelibs/deno/events.ts";
 export const events = dex_events;
 
-import dex_util from "https://raw.githubusercontent.com/jspm/jspm-core/master/nodelibs/util.js";
+import dex_util from "https://raw.githubusercontent.com/jspm/jspm-core/main/nodelibs/deno/util.ts";
 export const util = dex_util;
 
 import dex_lodash from "https://dev.jspm.io/lodash@4";

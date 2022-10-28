@@ -25,7 +25,7 @@ export const uuid = dex_uuid;
 import * as dex_path from "https://deno.land/std/path/mod.ts";
 export const path = dex_path;
 
-import dex_assert from "https://raw.githubusercontent.com/jspm/jspm-core/main/nodelibs/deno/assert.ts";
+import dex_assert from "https://deno.land/std@0.161.0/node/assert.ts";
 export const assert = dex_assert;
 
 import dex_url from "https://raw.githubusercontent.com/jspm/jspm-core/main/nodelibs/deno/url.ts";

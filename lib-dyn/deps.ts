@@ -25,14 +25,14 @@ export const uuid = dex_uuid;
 import * as dex_path from "https://deno.land/std/path/mod.ts";
 export const path = dex_path;
 
-import dex_assert from "https://raw.githubusercontent.com/jspm/jspm-core/master/nodelibs/assert.js";
+import dex_assert from "https://raw.githubusercontent.com/jspm/jspm-core/main/nodelibs/deno/assert.ts";
 export const assert = dex_assert;
 
-import dex_url from "https://raw.githubusercontent.com/jspm/jspm-core/master/nodelibs/url.js";
+import dex_url from "https://raw.githubusercontent.com/jspm/jspm-core/main/nodelibs/deno/url.ts";
 export const url = dex_url;
 
 import dex_pgconn from "https://dev.jspm.io/pg-connection-string@2.2.0";
 export const pgconn = dex_pgconn;
 
-import dex_stream from "https://raw.githubusercontent.com/jspm/jspm-core/master/nodelibs/stream.js";
+import dex_stream from "https://raw.githubusercontent.com/jspm/jspm-core/main/nodelibs/deno/stream.ts";
 export const stream = dex_stream;
